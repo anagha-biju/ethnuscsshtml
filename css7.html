@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div.bcontainer {
+        position: absolute;
+        background: pink;
+	    border-radius: 3px;
+        padding: 50px 150px;
+	    right: 0; 
+    }
+
+    div.scontainer {
+        background: palevioletred;
+	    border-radius: 3px;
+        padding: 100px 200px;
+        font-size: 30px;
+        text-align: left;
+    }
+    body{
+        padding: 200px;
+    }
+    input[type=text], input[type=password]{
+        width:100%;
+        height: 25px;
+    }
+    </style>
+</head>
+<body>
+    <div class="bcontainer">
+        <div class="scontainer">
+            <form>
+                <table>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Name:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="text" placeholder="your name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Email:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="email" placeholder="your email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Password:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Phone Number:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Gender:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="radio" name="gen" />Male
+                            <input type="radio" name="gen"/>Female
+                            <input type="radio" name="gen"/>Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>language</label>
+                            </center>
+                        </th>
+                        <td>
+                            <select>
+                                <option>Select language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>Zip Code:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <center>
+                            <label>About:</label>
+                            </center>
+                        </th>
+                        <td>
+                            <input type="text" placeholder="Write about yourself"/>
+                        </td>
+                    </tr>
+                    <center>
+                    <tr>
+                        <center>
+                        <td>
+                            <button>Register</button>
+                        </td>
+                        </center>
+                    </tr>
+                    </center>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

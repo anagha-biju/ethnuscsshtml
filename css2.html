@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .verticalnav{
+            background-color: aqua;
+            height: 400px;
+            width: 250px;
+        }
+        .verticalnav div{
+            padding: 20px 10px;
+            cursor: pointer;
+            font-size: xx-large;
+        }
+
+        .verticalnav div:hover{
+            background-color: yellow;
+            color:black;
+        }
+
+        .horinav {
+            background-color: gray;
+            width:600px;
+            height:100px
+        }
+        .horinav a{
+            float: left;
+            color: beige;
+            text-align: center
+            text-decoration:none;
+            padding: 20px 10px;
+            cursor: pointer;
+            font-size: xx-large;
+        }
+
+        .verticalnav a:hover{
+            background-color: yellow;
+            color:grey;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="verticalnav">
+        <div class="home" href="#home">Home</div>
+        <div href="#java">Java</div>
+        <div href="#css">CSS</div>
+        <div href="#html">HTML</div>
+        <div href="#bootstrap">Bootstrap</div>
+    </div>
+
+    <div>
+        <div class="horinav">
+            <a class="home" href="#home">Home</a>
+            <a  href="#java">Java</a>
+            <a  href="#css">CSS</a>
+            <a  href="#html">HTML</a>
+            <a  href="#bootstrap">Bootstrap</a>
+        </div>
+    </div>
+</body>
+</html>
